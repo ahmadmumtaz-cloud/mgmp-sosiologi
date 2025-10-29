@@ -1,0 +1,434 @@
+[
+  {
+    "question": "Salah satu masalah sosial di masyarakat adalah kemiskinan yang berakibat pada peningkatan pengangguran. Untuk mengatasinya, perlu dikaji berbagai faktor penyebabnya. Fungsi sosiologi dalam hal ini adalah memberikan sumbangan dalam bentuk...",
+    "answerOptions": [
+      { "text": "perencanaan", "isCorrect": true, "rationale": "Benar. Pada tahap perencanaan, sosiologi berguna untuk mengidentifikasi masalah yang akan dikaji." },
+      { "text": "jasa konsultan", "isCorrect": false, "rationale": "Kurang tepat. Fungsi utamanya dalam konteks ini adalah analisis untuk perencanaan." },
+      { "text": "ketersediaan data", "isCorrect": false, "rationale": "Kurang tepat. Fungsi sosiologi di sini adalah menganalisis data untuk membuat rencana." },
+      { "text": "kegiatan distribusi", "isCorrect": false, "rationale": "Kurang tepat. Distribusi adalah tahap eksekusi, bukan perencanaan." }
+    ]
+  },
+  {
+    "question": "Pak Bambang menegur anaknya saat makan malam karena makan sambil mengecap (mengeluarkan bunyi). Tindakan Pak Bambang merupakan sosialisasi agar anaknya mematuhi norma...",
+    "answerOptions": [
+      { "text": "laws/hukum formal", "isCorrect": false, "rationale": "Salah. Mengecap saat makan bukanlah pelanggaran hukum formal." },
+      { "text": "usage/cara berperilaku", "isCorrect": true, "rationale": "Benar. 'Usage' adalah perbuatan tertentu. Pelanggarannya tidak dihukum berat, tapi mendapat celaan." },
+      { "text": "value/tata nilai", "isCorrect": false, "rationale": "Kurang tepat. Ini lebih spesifik dari sekadar tata nilai umum." },
+      { "text": "estetika/rasa seni", "isCorrect": false, "rationale": "Kurang tepat. Ini lebih ke norma kesopanan daripada estetika." }
+    ]
+  },
+  {
+    "question": "Apabila bertemu sahabat lama, kita berjabat tangan. Berdasarkan daya ikatnya, perilaku sosial ini termasuk pelaksanaan norma...",
+    "answerOptions": [
+      { "text": "cara", "isCorrect": false, "rationale": "Kurang tepat. Daya ikat 'cara' (usage) lebih lemah." },
+      { "text": "hukum", "isCorrect": false, "rationale": "Salah. Tidak ada sanksi hukum jika tidak berjabat tangan." },
+      { "text": "kebiasaan", "isCorrect": true, "rationale": "Benar. Ini adalah bentuk perbuatan berulang (folk ways) yang dianggap baik oleh masyarakat." },
+      { "text": "tata kelakuan", "isCorrect": false, "rationale": "Kurang tepat. 'Tata kelakuan' (mores) ikatannya lebih kuat dan menyangkut moral." }
+    ]
+  },
+  {
+    "question": "Seorang anak sangat mengidolakan ayahnya yang seorang polisi dan berharap bisa mencontoh sikap tegasnya. Faktor yang memengaruhi interaksi sosial ini adalah...",
+    "answerOptions": [
+      { "text": "simpati", "isCorrect": false, "rationale": "Kurang tepat. Simpati hanya perasaan tertarik, belum sampai ingin menjadi sama." },
+      { "text": "imitasi", "isCorrect": false, "rationale": "Kurang tepat. Imitasi hanya meniru sebagian, tidak secara keseluruhan." },
+      { "text": "sugesti", "isCorrect": false, "rationale": "Kurang tepat. Sugesti adalah pengaruh yang menggerakkan hati orang." },
+      { "text": "identifikasi", "isCorrect": true, "rationale": "Benar. Identifikasi adalah kecenderungan dalam diri untuk menjadi sama dengan orang yang diidolakan." }
+    ]
+  },
+  {
+    "question": "Menjelang Pilkada, partai politik bekerja sama untuk memenangkan pemilihan. Bentuk interaksi sosial ini termasuk...",
+    "answerOptions": [
+      { "text": "koalisi", "isCorrect": true, "rationale": "Benar. Koalisi adalah kerja sama dua organisasi politik atau lebih untuk mencapai tujuan yang sama." },
+      { "text": "joint venture", "isCorrect": false, "rationale": "Kurang tepat. Joint venture adalah kerja sama badan usaha untuk meraih keuntungan ekonomi." },
+      { "text": "kooptasi", "isCorrect": false, "rationale": "Kurang tepat. Kooptasi adalah proses menyepakati pimpinan untuk mengendalikan organisasi." },
+      { "text": "koersi", "isCorrect": false, "rationale": "Kurang tepat. Koersi adalah bentuk akomodasi yang menggunakan paksaan." }
+    ]
+  },
+  {
+    "question": "Seorang artis mendapat gelar Doctor Honoris Causa karena berhasil melestarikan musik tertentu. Pemberian status sosial ini dilatarbelakangi oleh...",
+    "answerOptions": [
+      { "text": "pendidikan formal", "isCorrect": false, "rationale": "Salah. Doctor Honoris Causa adalah gelar kehormatan, bukan dari pendidikan formal." },
+      { "text": "simpati masyarakat", "isCorrect": false, "rationale": "Kurang tepat. Latar belakang utamanya lebih spesifik dari sekadar simpati." },
+      { "text": "prestasi di bidangnya", "isCorrect": true, "rationale": "Benar. Status ini didapatkan karena prestasi individu dalam mengembangkan musik." },
+      { "text": "adat istiadat", "isCorrect": false, "rationale": "Tidak relevan dengan kasus ini." }
+    ]
+  },
+  {
+    "question": "Setiap hari Senin semua sekolah melaksanakan upacara bendera dengan seragam rapi. Hal ini menunjukkan unsur keteraturan sosial, yaitu...",
+    "answerOptions": [
+      { "text": "tertib sosial", "isCorrect": false, "rationale": "Tertib sosial adalah kondisi keteraturan yang sudah menjadi hasil." },
+      { "text": "order sosial", "isCorrect": false, "rationale": "Order adalah sistem norma yang berlaku, sedangkan contoh ini adalah tindakan berulangnya." },
+      { "text": "keajegan", "isCorrect": true, "rationale": "Benar. Keajegan adalah keteraturan sosial yang sifatnya tetap dan berlangsung terus-menerus." },
+      { "text": "pola", "isCorrect": false, "rationale": "Pola adalah corak hubungan, keajegan lebih merujuk pada kontinuitas perilakunya." }
+    ]
+  },
+  {
+    "question": "Seorang individu pada masa anak-anak mulai beradaptasi dan mengenal keluarganya. Hal ini merupakan bentuk sosialisasi...",
+    "answerOptions": [
+      { "text": "primer", "isCorrect": true, "rationale": "Benar. Sosialisasi primer adalah sosialisasi pertama yang dijalani individu semasa kecil di lingkungan keluarga." },
+      { "text": "sekunder", "isCorrect": false, "rationale": "Salah. Sosialisasi sekunder terjadi di luar keluarga, seperti di sekolah." },
+      { "text": "lanjutan", "isCorrect": false, "rationale": "Ini adalah istilah lain untuk sosialisasi sekunder." },
+      { "text": "langsung", "isCorrect": false, "rationale": "Kurang tepat. Klasifikasi primer/sekunder lebih cocok untuk konteks ini." }
+    ]
+  },
+  {
+    "question": "Manakah dari contoh berikut yang merupakan penyimpangan sekunder?",
+    "answerOptions": [
+      { "text": "Jessica gemar memakai seragam ketat", "isCorrect": false, "rationale": "Ini adalah penyimpangan primer, karena sanksinya ringan." },
+      { "text": "Bobi gemar main game hingga lupa belajar", "isCorrect": false, "rationale": "Ini juga termasuk penyimpangan primer." },
+      { "text": "Pejabat korupsi, pengguna ganja, dan penyedia prostitusi.", "isCorrect": true, "rationale": "Benar. Penyimpangan sekunder dilakukan berulang dan pelakunya dikenal sebagai penyimpang." },
+      { "text": "Semua jawaban salah", "isCorrect": false, "rationale": "Ada jawaban yang benar." }
+    ]
+  },
+  {
+    "question": "Seorang anak yang sopan menjadi tidak disiplin dan kasar karena pengaruh teman bermainnya. Penyimpangan ini disebabkan oleh...",
+    "answerOptions": [
+      { "text": "sosialisasi yang tidak sempurna", "isCorrect": false, "rationale": "Kurang tepat. Ini terjadi ketika pesan yang diterima bertentangan." },
+      { "text": "sosialisasi subbudaya menyimpang", "isCorrect": true, "rationale": "Benar. Ini terjadi karena individu menyerap nilai dari kelompok yang bertentangan dengan norma umum." },
+      { "text": "dampak keluarga tidak harmonis", "isCorrect": false, "rationale": "Tidak disebutkan dalam soal bahwa keluarganya tidak harmonis." },
+      { "text": "kegagalan menyerap norma", "isCorrect": false, "rationale": "Kurang spesifik. Penyebabnya adalah karena menyerap norma lain." }
+    ]
+  },
+  {
+    "question": "Seorang guru BK mengajak siswa yang sering membolos untuk mematuhi norma sekolah. Tujuan utama dari pengendalian sosial ini adalah...",
+    "answerOptions": [
+      { "text": "menciptakan masyarakat bebas berkreasi", "isCorrect": false, "rationale": "Salah. Pengendalian sosial justru membatasi perilaku agar sesuai norma." },
+      { "text": "mendapatkan kehidupan yang dinamis", "isCorrect": false, "rationale": "Tujuan utamanya adalah keteraturan, bukan kedinamisan." },
+      { "text": "menggalang kesatuan dalam kelompoknya", "isCorrect": false, "rationale": "Bukan tujuan utama dalam konteks ini." },
+      { "text": "menciptakan masyarakat yang tertib dan teratur", "isCorrect": true, "rationale": "Benar. Tujuan mendasar pengendalian sosial adalah menciptakan ketertiban." }
+    ]
+  },
+  {
+    "question": "Struktur sosial horizontal dimana kelompok masyarakat memiliki bahasa, kesenian, dan adat yang sama disebut...",
+    "answerOptions": [
+      { "text": "ras", "isCorrect": false, "rationale": "Salah. Ras didasarkan pada ciri fisik." },
+      { "text": "klan", "isCorrect": false, "rationale": "Salah. Klan didasarkan pada garis keturunan." },
+      { "text": "suku bangsa", "isCorrect": true, "rationale": "Benar. Suku bangsa adalah kelompok manusia yang memiliki kesatuan budaya." },
+      { "text": "dyad", "isCorrect": false, "rationale": "Salah. Dyad adalah kelompok sosial yang terdiri dari dua orang." }
+    ]
+  },
+  {
+    "question": "Sistem kasta di masyarakat Hindu (Brahmana, Ksatria, Waisya, Sudra) merupakan pelapisan sosial yang didasarkan pada...",
+    "answerOptions": [
+      { "text": "kekayaan", "isCorrect": false, "rationale": "Salah. Dasar utamanya bukan kekayaan." },
+      { "text": "pekerjaan", "isCorrect": false, "rationale": "Salah. Pekerjaan ditentukan oleh kasta, bukan sebaliknya." },
+      { "text": "pendidikan", "isCorrect": false, "rationale": "Salah. Akses pendidikan seringkali dibatasi oleh kasta." },
+      { "text": "keturunan", "isCorrect": true, "rationale": "Benar. Sistem kasta bersifat tertutup (ascribed status) dimana status sosial diwariskan." }
+    ]
+  },
+  {
+    "question": "Fahri menjadi Ketua Ikatan Akuntansi Indonesia setelah kuliah dan aktif di organisasi profesi. Saluran yang ia gunakan untuk mobilitas sosial adalah...",
+    "answerOptions": [
+      { "text": "pendidikan dan perkawinan", "isCorrect": false, "rationale": "Tidak ada informasi tentang perkawinan dalam soal." },
+      { "text": "keagamaan dan pendidikan", "isCorrect": false, "rationale": "Tidak ada informasi tentang saluran keagamaan." },
+      { "text": "pendidikan dan profesi", "isCorrect": true, "rationale": "Benar. Ia menggunakan pendidikan (kuliah) dan organisasi profesi sebagai saluran mobilitas." },
+      { "text": "prestasi dan militer", "isCorrect": false, "rationale": "Tidak ada informasi tentang saluran militer." }
+    ]
+  },
+  {
+    "question": "Seorang ayah adalah petani. Anak ke-1 menjadi petani, anak ke-2 menjadi pedagang, dan anak ke-3 menjadi buruh. Apa kesimpulan dari bagan ini?",
+    "answerOptions": [
+      { "text": "terjadi mobilitas horizontal antargenerasi", "isCorrect": true, "rationale": "Benar. Status petani, pedagang, dan buruh dianggap sederajat (horizontal)." },
+      { "text": "anak dan orang tua mengalami mobilitas vertikal naik", "isCorrect": false, "rationale": "Salah. Tidak ada indikasi kenaikan status yang jelas." },
+      { "text": "status anak ke-3 lebih tinggi dari orang tuanya", "isCorrect": false, "rationale": "Salah. Status buruh tidak serta merta lebih tinggi dari petani." },
+      { "text": "mobilitas sosial hanya terjadi pada anak ke-1 dan ke-2", "isCorrect": false, "rationale": "Salah. Semua anak mengalami mobilitas jika profesinya berbeda." }
+    ]
+  },
+  {
+    "question": "Konflik antara warga dengan pengusaha akibat lumpur Sidoarjo disebabkan oleh...",
+    "answerOptions": [
+      { "text": "bencana alam yang memicu konflik", "isCorrect": false, "rationale": "Penyebabnya bukan murni bencana alam, melainkan aktivitas manusia." },
+      { "text": "perbedaan kepentingan antara warga dan pengusaha", "isCorrect": true, "rationale": "Benar. Warga berkepentingan atas keselamatan, pengusaha berkepentingan atas keuntungan." },
+      { "text": "ulah manusia yang tidak mengindahkan teknologi", "isCorrect": false, "rationale": "Kurang tepat. Akar konflik sosialnya adalah perbedaan kepentingan." },
+      { "text": "perubahan kebudayaan akibat bencana", "isCorrect": false, "rationale": "Fokus konfliknya bukan pada perubahan budaya, tapi pada ganti rugi." }
+    ]
+  },
+  {
+    "question": "Seorang gadis tetap menikah meski tidak disetujui orang tuanya, menyebabkan hubungan keluarga besar merenggang. Dampak negatif konflik ini adalah...",
+    "answerOptions": [
+      { "text": "hubungan kekeluargaan dua keluarga menjadi renggang", "isCorrect": true, "rationale": "Benar. Konflik melebar kepada keluarga besar, berarti hubungan antarkeluarga renggang." },
+      { "text": "silaturahmi anak dengan orang tua putus", "isCorrect": false, "rationale": "Meskipun bisa terjadi, pilihan A lebih mencakup dampak yang disebutkan di soal." },
+      { "text": "orang tua ingin anaknya menggugat cerai", "isCorrect": false, "rationale": "Ini adalah kemungkinan tindakan, bukan dampak sosial yang sudah terjadi." },
+      { "text": "pasangan muda tidak hormat pada orang tua", "isCorrect": false, "rationale": "Ini adalah asumsi, bukan dampak langsung yang dijelaskan." }
+    ]
+  },
+  {
+    "question": "Sengketa tapal batas negara diselesaikan dengan dialog dan kedua pihak sepakat membuat tugu dengan biaya patungan. Penyelesaian konflik ini adalah bentuk...",
+    "answerOptions": [
+      { "text": "kompromi", "isCorrect": true, "rationale": "Benar. Kompromi terjadi ketika pihak-pihak yang bertikai saling mengurangi tuntutannya." },
+      { "text": "konsiliasi", "isCorrect": false, "rationale": "Salah. Konsiliasi menggunakan lembaga tertentu untuk mempertemukan keinginan." },
+      { "text": "ajudikasi", "isCorrect": false, "rationale": "Salah. Ajudikasi adalah penyelesaian melalui pengadilan." },
+      { "text": "mediasi", "isCorrect": false, "rationale": "Salah. Mediasi melibatkan pihak ketiga yang netral sebagai penasihat." }
+    ]
+  },
+  {
+    "question": "Strategi paling efektif mengelola keberagaman identitas agar menjadi modal sosial adalah...",
+    "answerOptions": [
+      { "text": "Mendorong asimilasi budaya minoritas ke mayoritas", "isCorrect": false, "rationale": "Salah. Ini menghilangkan keberagaman, bukan mengelolanya." },
+      { "text": "Memperkuat identitas kelompok secara eksklusif", "isCorrect": false, "rationale": "Salah. Ini bisa memicu konflik dan disintegrasi." },
+      { "text": "Membangun kesadaran kesetaraan, saling menghormati, dan dialog", "isCorrect": true, "rationale": "Benar. Ini adalah strategi integrasi yang mengakui dan menghargai keberagaman." },
+      { "text": "Menyerahkan pengelolaan keberagaman kepada pemerintah", "isCorrect": false, "rationale": "Kurang tepat. Peran aktif masyarakat juga sangat penting." }
+    ]
+  },
+  {
+    "question": "Seorang ayah berprofesi perawat, sedangkan anaknya menjadi dokter. Bagan ini menunjukkan telah terjadi...",
+    "answerOptions": [
+      { "text": "mobilitas sosial antargenerasi naik", "isCorrect": true, "rationale": "Benar. Terjadi peningkatan status sosial (dokter > perawat) antar generasi." },
+      { "text": "penurunan status sosial antargenerasi", "isCorrect": false, "rationale": "Salah. Terjadi kenaikan status." },
+      { "text": "status sosial dipengaruhi pribadi individu", "isCorrect": false, "rationale": "Meskipun benar, jawaban A lebih spesifik menjelaskan jenis mobilitasnya." },
+      { "text": "mobilitas horizontal antargenerasi", "isCorrect": false, "rationale": "Salah. Terjadi perubahan tingkatan status, sehingga bersifat vertikal." }
+    ]
+  },
+  {
+    "question": "Manakah di antara pilihan berikut yang termasuk faktor PENGHAMBAT mobilitas sosial?",
+    "answerOptions": [
+      { "text": "struktur sosial yang terbuka", "isCorrect": false, "rationale": "Salah. Ini justru faktor PENDORONG mobilitas sosial." },
+      { "text": "dukungan finansial kurang, pendidikan kurang, dan politik tidak stabil", "isCorrect": true, "rationale": "Benar. Ketiga faktor ini merupakan penghambat terjadinya mobilitas sosial." },
+      { "text": "pindah lokasi tempat tinggal", "isCorrect": false, "rationale": "Salah. Pindah lokasi seringkali menjadi faktor PENDORONG mobilitas." },
+      { "text": "struktur sosial terbuka dan pindah lokasi", "isCorrect": false, "rationale": "Salah. Kedua faktor ini adalah pendorong, bukan penghambat." }
+    ]
+  },
+  {
+    "question": "Dalam ceramah, seorang ustadz menekankan pentingnya mendidik anak. Peran ustadz sebagai bagian dari aktivitas sosial dalam konteks ini adalah...",
+    "answerOptions": [
+      { "text": "mendorong terciptanya hidup yang harmonis", "isCorrect": false, "rationale": "Ini adalah dampak positif, peran spesifiknya lebih dari itu." },
+      { "text": "menjaga masyarakat dari ancaman kejahatan", "isCorrect": false, "rationale": "Ini lebih merupakan fungsi lembaga keamanan." },
+      { "text": "mengajarkan tata cara ritual peribadatan sesuai agamanya", "isCorrect": true, "rationale": "Benar. Peran pemuka agama adalah mengajarkan tata cara peribadatan, yang maknanya bisa luas." },
+      { "text": "mengajarkan keluarga untuk bisa hidup sejahtera", "isCorrect": false, "rationale": "Ini lebih fungsi lembaga ekonomi atau keluarga." }
+    ]
+  },
+  {
+    "question": "Warno mendekati Warni, anak juragan beras, dengan harapan dapat menikahinya untuk meningkatkan pengaruh. Ini menunjukkan mobilitas sosial berhubungan erat dengan...",
+    "answerOptions": [
+      { "text": "kegiatan ekonomi", "isCorrect": false, "rationale": "Kurang tepat. Tujuan utamanya adalah peningkatan status." },
+      { "text": "status sosial", "isCorrect": true, "rationale": "Benar. Pernikahan adalah salah satu cara melakukan mobilitas sosial untuk meningkatkan status." },
+      { "text": "usia perkawinan", "isCorrect": false, "rationale": "Tidak relevan dengan contoh mobilitas sosial ini." },
+      { "text": "jenis pendidikan", "isCorrect": false, "rationale": "Tidak relevan. Contoh ini tidak menyinggung pendidikan." }
+    ]
+  },
+  {
+    "question": "Klasifikasi kelompok sosial menjadi primer (keluarga) dan sekunder (organisasi) dilakukan atas dasar...",
+    "answerOptions": [
+      { "text": "kepentingannya", "isCorrect": false, "rationale": "Kurang tepat." },
+      { "text": "sifat hubungannya", "isCorrect": false, "rationale": "Meskipun terkait, 'derajat interaksi dan tujuan' lebih komprehensif." },
+      { "text": "struktur organisasinya", "isCorrect": false, "rationale": "Ini lebih untuk membedakan kelompok formal dan informal." },
+      { "text": "derajat interaksi dan tujuannya", "isCorrect": true, "rationale": "Benar. Kelompok primer interaksinya erat, sekunder lebih besar dan bertujuan tertentu." }
+    ]
+  },
+  {
+    "question": "Kehidupan kota besar yang majemuk dengan penduduk dari berbagai latar belakang dapat melahirkan proses...",
+    "answerOptions": [
+      { "text": "struktur majemuk", "isCorrect": false, "rationale": "Struktur majemuk adalah kondisi, bukan proses." },
+      { "text": "stratifikasi sosial", "isCorrect": false, "rationale": "Stratifikasi adalah pelapisan vertikal, soal ini menekankan keragaman horizontal." },
+      { "text": "akulturasi sosial", "isCorrect": true, "rationale": "Benar. Akulturasi adalah proses percampuran dua kebudayaan atau lebih yang saling bertemu." },
+      { "text": "akumulasi sosial", "isCorrect": false, "rationale": "Istilah ini kurang umum untuk konteks ini." }
+    ]
+  },
+  {
+    "question": "Manakah perilaku yang sesuai dalam masyarakat multikultural?",
+    "answerOptions": [
+      { "text": "Memilih pemimpin dari putra daerah", "isCorrect": false, "rationale": "Ini adalah contoh primordialisme." },
+      { "text": "Menganggap rendah kelompok etnik lain", "isCorrect": false, "rationale": "Ini adalah contoh etnosentrisme." },
+      { "text": "Menyukai budaya suku lain, menikah beda etnik, dan menghargai solidaritas", "isCorrect": true, "rationale": "Benar. Ini mencerminkan sikap toleransi dan penghargaan terhadap perbedaan." },
+      { "text": "Hanya memilih pemimpin daerah dan menganggap rendah etnik lain", "isCorrect": false, "rationale": "Ini jelas sikap yang tidak sesuai." }
+    ]
+  },
+  {
+    "question": "Keberhasilan pemerintah menangani pergolakan daerah yang ingin memisahkan diri dari NKRI berdampak positif untuk memperkuat...",
+    "answerOptions": [
+      { "text": "budaya nasional", "isCorrect": false, "rationale": "Ini bisa menjadi dampak ikutan, tapi dampak utamanya lebih fundamental." },
+      { "text": "ekonomi nasional", "isCorrect": false, "rationale": "Dampak sosiologis utamanya adalah persatuan." },
+      { "text": "integrasi nasional", "isCorrect": true, "rationale": "Benar. Menangani disintegrasi secara langsung akan memperkuat integrasi nasional." },
+      { "text": "kepemimpinan nasional", "isCorrect": false, "rationale": "Dampak utamanya adalah bagi keutuhan bangsa." }
+    ]
+  },
+  {
+    "question": "Fakta mana yang terkait dengan penyebab kemajemukan budaya di Indonesia?",
+    "answerOptions": [
+      { "text": "Sebagian penduduk hidup dengan kualitas rendah", "isCorrect": false, "rationale": "Ini masalah sosial, bukan penyebab kemajemukan." },
+      { "text": "Hasil kekayaan alam dapat diekspor", "isCorrect": false, "rationale": "Ini kondisi ekonomi, bukan penyebab kemajemukan." },
+      { "text": "Teknologi belum merata, ribuan pulau, dan hambatan interaksi antarpulau", "isCorrect": true, "rationale": "Benar. Kondisi geografis dan isolasi menciptakan budaya yang beragam." },
+      { "text": "Kualitas penduduk rendah dan teknologi belum merata", "isCorrect": false, "rationale": "Kualitas penduduk adalah dampak, bukan penyebab." }
+    ]
+  },
+  {
+    "question": "Upaya untuk mewujudkan masyarakat multikultural yang harmonis setelah terjadi konflik adalah...",
+    "answerOptions": [
+      { "text": "menghilangkan dendam", "isCorrect": false, "rationale": "Ini adalah hasil yang diharapkan, bukan prosesnya." },
+      { "text": "mencapai kesepakatan melalui paksaan", "isCorrect": false, "rationale": "Paksaan tidak menciptakan keharmonisan sejati." },
+      { "text": "menyesuaikan kembali nilai dan norma yang berlaku", "isCorrect": true, "rationale": "Benar. Menanamkan kembali nilai dan norma bersama dapat memulihkan keharmonisan." },
+      { "text": "mengubah kepribadian individu", "isCorrect": false, "rationale": "Ini bukan pendekatan sosiologis untuk resolusi konflik komunal." }
+    ]
+  },
+  {
+    "question": "Dampak positif dari proses mutual akulturasi di perkotaan yang warganya terbuka adalah...",
+    "answerOptions": [
+      { "text": "mempercepat proses modernisasi", "isCorrect": true, "rationale": "Benar. Sikap terbuka mempermudah adopsi teknologi dan nilai baru yang mendorong modernisasi." },
+      { "text": "menghilangkan perbedaan sosial", "isCorrect": false, "rationale": "Salah. Akulturasi tidak menghilangkan perbedaan, tapi menciptakan harmoni." },
+      { "text": "mengurangi sentimen primordial", "isCorrect": false, "rationale": "Meskipun bisa, 'mempercepat modernisasi' adalah dampak yang lebih luas." },
+      { "text": "mendorong homogenitas masyarakat", "isCorrect": false, "rationale": "Salah. Akulturasi menciptakan budaya baru dari percampuran, bukan keseragaman." }
+    ]
+  },
+  {
+    "question": "Pembangunan jalan terhambat karena sekelompok masyarakat menolak menjual tanah warisan leluhur. Sikap ini disebabkan adanya...",
+    "answerOptions": [
+      { "text": "unsur primordial", "isCorrect": true, "rationale": "Benar. Sikap ini menunjukkan loyalitas berlebihan (primordialisme) terhadap nilai-nilai leluhur." },
+      { "text": "konflik horizontal", "isCorrect": false, "rationale": "Salah. Konflik ini antara masyarakat dengan negara (vertikal)." },
+      { "text": "faktor tradisional", "isCorrect": false, "rationale": "'Primordial' adalah istilah yang lebih spesifik." },
+      { "text": "kepentingan ekonomi", "isCorrect": false, "rationale": "Salah. Alasan penolakan adalah keyakinan, bukan harga jual." }
+    ]
+  },
+  {
+    "question": "Dampak POSITIF program internet masuk desa pada perilaku remaja adalah...",
+    "answerOptions": [
+      { "text": "wawasan menjadi berkembang negatif", "isCorrect": false, "rationale": "Soal menanyakan dampak positif." },
+      { "text": "daya kritis menjadi lebih tinggi", "isCorrect": true, "rationale": "Benar. Akses informasi dapat memperluas wawasan dan meningkatkan daya kritis." },
+      { "text": "kehidupan menjadi sejahtera", "isCorrect": false, "rationale": "Ini harapan jangka panjang, bukan dampak langsung pada perilaku." },
+      { "text": "menjadi konsumtif", "isCorrect": false, "rationale": "Ini adalah contoh dampak negatif." }
+    ]
+  },
+  {
+    "question": "Contoh dampak yang muncul akibat kesenjangan sosial ekonomi adalah...",
+    "answerOptions": [
+      { "text": "lahirnya kelompok-kelompok sosial tertentu dalam masyarakat", "isCorrect": true, "rationale": "Benar. Kesenjangan pendapatan memunculkan kelompok masyarakat berdasarkan status ekonomi (kelas sosial)." },
+      { "text": "munculnya kelas sosial terbuka", "isCorrect": false, "rationale": "Kesenjangan justru bisa menghambat mobilitas." },
+      { "text": "menimbulkan kecemburuan sosial", "isCorrect": false, "rationale": "Meskipun bisa terjadi, lahirnya kelompok sosial adalah dampak struktural." },
+      { "text": "menurunnya pendapatan per kapita", "isCorrect": false, "rationale": "Ini lebih merupakan penyebab atau korelasi." }
+    ]
+  },
+  {
+    "question": "Jika salah satu unsur masyarakat tidak berfungsi baik, akan timbul disorganisasi. Contoh dampaknya adalah...",
+    "answerOptions": [
+      { "text": "masyarakat ikut berpartisipasi dalam pembangunan", "isCorrect": false, "rationale": "Ini ciri masyarakat terorganisir." },
+      { "text": "meningkatnya kewibawaan tokoh masyarakat", "isCorrect": false, "rationale": "Disorganisasi justru cenderung menurunkan kewibawaan." },
+      { "text": "memudarnya nilai dan norma yang dijunjung tinggi", "isCorrect": true, "rationale": "Benar. Lunturnya nilai dan norma adalah ciri utama disorganisasi sosial." },
+      { "text": "meningkatnya solidaritas dalam kelompok", "isCorrect": false, "rationale": "Solidaritas biasanya menurun saat terjadi disorganisasi." }
+    ]
+  },
+  {
+    "question": "Perkembangan AI yang menggantikan pekerjaan manusia paling relevan dikaji dengan konsep...",
+    "answerOptions": [
+      { "text": "Mobilitas sosial vertikal", "isCorrect": false, "rationale": "Konsep yang lebih luas adalah ketimpangan struktural." },
+      { "text": "Diferensiasi pekerjaan", "isCorrect": false, "rationale": "AI tidak hanya menciptakan pekerjaan baru, tapi memperdalam kesenjangan." },
+      { "text": "Ketimpangan struktural", "isCorrect": true, "rationale": "Benar. AI dapat memperdalam ketidaksetaraan yang sudah tertanam dalam sistem sosial dan ekonomi." },
+      { "text": "Disorganisasi sosial", "isCorrect": false, "rationale": "Akar masalahnya paling tepat dianalisis sebagai ketimpangan struktural." }
+    ]
+  },
+  {
+    "question": "Definisi 'Perubahan sosial adalah perubahan yang terjadi pada struktur dan fungsi masyarakat' menjelaskan tentang...",
+    "answerOptions": [
+      { "text": "arti perubahan", "isCorrect": false, "rationale": "Ini lebih spesifik dari arti umum." },
+      { "text": "sebab perubahan", "isCorrect": false, "rationale": "Definisi ini tidak menjelaskan penyebab." },
+      { "text": "tujuan perubahan", "isCorrect": false, "rationale": "Definisi ini tidak menyebutkan tujuan." },
+      { "text": "unsur yang berubah", "isCorrect": true, "rationale": "Benar. Definisi ini secara eksplisit menyebutkan unsur yang berubah, yaitu 'struktur dan fungsi'." }
+    ]
+  },
+  {
+    "question": "Contoh lembaga sosial yang tumbuh secara tidak terencana (unplanned) adalah...",
+    "answerOptions": [
+      { "text": "sistem barter", "isCorrect": false, "rationale": "Sistem barter adalah cikal bakal lembaga ekonomi." },
+      { "text": "perusahaan dagang", "isCorrect": false, "rationale": "Perusahaan dagang adalah lembaga yang diciptakan (created)." },
+      { "text": "lembaga pendidikan", "isCorrect": false, "rationale": "Lembaga pendidikan modern diciptakan secara sengaja." },
+      { "text": "lembaga perkawinan", "isCorrect": true, "rationale": "Benar. Lembaga perkawinan tumbuh secara alami dari adat istiadat, bukan diciptakan secara formal." }
+    ]
+  },
+  {
+    "question": "Generasi muda petani migrasi ke kota karena gagal panen akibat perubahan iklim. Fenomena ini dapat dianalisis sebagai bentuk dari...",
+    "answerOptions": [
+      { "text": "Mobilitas sosial horizontal", "isCorrect": false, "rationale": "Pindah dari desa ke kota kemungkinan besar melibatkan perubahan status." },
+      { "text": "Perubahan nilai generasi", "isCorrect": false, "rationale": "Penyebab utamanya adalah faktor ekonomi dan struktural." },
+      { "text": "Disintegrasi komunitas", "isCorrect": false, "rationale": "Ini adalah akibatnya, bukan konsep analisis penyebabnya." },
+      { "text": "Ketimpangan pembangunan desa-kota", "isCorrect": true, "rationale": "Benar. Migrasi ini didorong oleh ketidaksetaraan peluang ekonomi antara desa dan kota." }
+    ]
+  },
+  {
+    "question": "Manakah yang tergolong ciri-ciri dari lembaga sosial?",
+    "answerOptions": [
+      { "text": "Memiliki fungsi yang terbatas", "isCorrect": false, "rationale": "Fungsi lembaga sosial justru bisa sangat luas." },
+      { "text": "Usia lembaga lebih singkat dibanding usia pemakainya", "isCorrect": false, "rationale": "Salah. Ciri lembaga sosial adalah memiliki usia yang lebih lama." },
+      { "text": "Memiliki simbol, norma (tertulis/tidak), dan tujuan yang jelas", "isCorrect": true, "rationale": "Benar. Ini adalah tiga ciri utama dari sebuah lembaga sosial." },
+      { "text": "Memiliki fungsi terbatas dan usia yang singkat", "isCorrect": false, "rationale": "Salah. Kedua pernyataan ini bertentangan dengan ciri-ciri lembaga sosial." }
+    ]
+  },
+  {
+    "question": "Tujuan lembaga politik dari ilustrasi Pilpres yang digelar lima tahun sekali adalah...",
+    "answerOptions": [
+      { "text": "membuat aturan agar ada peluang menang", "isCorrect": false, "rationale": "Ini strategi partai, bukan tujuan ideal lembaga politik." },
+      { "text": "mewujudkan keadilan dan kesejahteraan masyarakat", "isCorrect": true, "rationale": "Benar. Fungsi utama lembaga politik adalah menyalurkan aspirasi rakyat untuk keadilan dan kesejahteraan." },
+      { "text": "mengemban tugas dari partai pendukungnya", "isCorrect": false, "rationale": "Idealnya, presiden mengemban amanah seluruh rakyat." },
+      { "text": "mengatur pelaksanaan Pemilu", "isCorrect": false, "rationale": "Ini fungsi teknis KPU, bukan tujuan akhir lembaga politik." }
+    ]
+  },
+  {
+    "question": "Penelitian yang bertujuan menemukan gejala umum dari populasi yang banyak dengan kuesioner termasuk jenis penelitian...",
+    "answerOptions": [
+      { "text": "survei", "isCorrect": true, "rationale": "Benar. Ciri khas survei adalah mengambil data dari populasi besar dengan kuesioner." },
+      { "text": "historik", "isCorrect": false, "rationale": "Salah. Historik mengkaji masa lalu." },
+      { "text": "eksperimen", "isCorrect": false, "rationale": "Salah. Eksperimen melakukan manipulasi variabel." },
+      { "text": "eksploratif", "isCorrect": false, "rationale": "Salah. Eksploratif dilakukan untuk topik yang masih baru." }
+    ]
+  },
+  {
+    "question": "Organisasi memberdayakan pengrajin tenun dengan pelatihan digital marketing tanpa menghilangkan motif lokal. Strategi ini menunjukkan pendekatan yang...",
+    "answerOptions": [
+      { "text": "Mengabaikan kearifan lokal demi modernisasi", "isCorrect": false, "rationale": "Salah. Program ini justru 'tanpa menghilangkan motif lokal'." },
+      { "text": "Mengintegrasikan kearifan lokal dengan inovasi dan teknologi modern", "isCorrect": true, "rationale": "Benar. Ini adalah contoh ideal pemberdayaan yang berkelanjutan." },
+      { "text": "Mempertahankan kearifan lokal tanpa inovasi", "isCorrect": false, "rationale": "Salah. Program ini memasukkan unsur inovasi dan teknologi." },
+      { "text": "Memisahkan kearifan lokal dari kegiatan ekonomi", "isCorrect": false, "rationale": "Salah. Justru program ini bertujuan mengintegrasikan keduanya." }
+    ]
+  },
+  {
+    "question": "Joni meneliti pengaruh internet di sekolahnya. Ia mengambil sampel dengan nomor urut kelipatan 3. Teknik pengambilan sampel ini disebut...",
+    "answerOptions": [
+      { "text": "stratifikasi", "isCorrect": false, "rationale": "Salah. Stratifikasi membagi populasi ke dalam tingkatan." },
+      { "text": "purposif", "isCorrect": true, "rationale": "Benar. Menurut pembahasan dokumen, ini disebut purposive. (Catatan: Metodologi modern menyebutnya Systematic Sampling)." },
+      { "text": "kelompok (cluster)", "isCorrect": false, "rationale": "Salah. Sampling kelompok mengambil sampel berdasarkan wilayah." },
+      { "text": "random", "isCorrect": false, "rationale": "Kurang spesifik. Metode kelipatan adalah jenis spesifik." }
+    ]
+  },
+  {
+    "question": "Populasi yang direncanakan atau menjadi sasaran spesifik dalam sebuah penelitian disebut...",
+    "answerOptions": [
+      { "text": "populasi target", "isCorrect": true, "rationale": "Benar. Populasi yang menjadi sasaran spesifik penelitian disebut populasi target." },
+      { "text": "populasi survei", "isCorrect": false, "rationale": "Survei adalah metodenya." },
+      { "text": "populasi fokus", "isCorrect": false, "rationale": "Fokus merujuk pada batasan masalah." },
+      { "text": "populasi observasi", "isCorrect": false, "rationale": "Observasi adalah teknik pengumpulan datanya." }
+    ]
+  },
+  {
+    "question": "Salah satu KELEBIHAN dari instrumen angket atau kuesioner adalah...",
+    "answerOptions": [
+      { "text": "memerlukan kehadiran peneliti", "isCorrect": false, "rationale": "Ini justru kelemahan." },
+      { "text": "dapat menjangkau responden dalam jumlah banyak", "isCorrect": true, "rationale": "Benar. Kuesioner dapat disebarkan secara massal kepada banyak responden." },
+      { "text": "dapat menciptakan hubungan baik dengan responden", "isCorrect": false, "rationale": "Ini adalah kelebihan wawancara." },
+      { "text": "dapat mengembangkan pertanyaan", "isCorrect": false, "rationale": "Ini kelemahan. Pertanyaan dalam kuesioner bersifat kaku." }
+    ]
+  },
+  {
+    "question": "Metode penelitian dengan mengambil data dari buku-buku literatur di perpustakaan disebut...",
+    "answerOptions": [
+      { "text": "metode survei", "isCorrect": false, "rationale": "Salah. Survei mengambil data dari responden." },
+      { "text": "metode empiris", "isCorrect": false, "rationale": "Empiris berarti berdasarkan observasi." },
+      { "text": "metode studi kasus", "isCorrect": false, "rationale": "Studi kasus mendalami satu kasus spesifik." },
+      { "text": "metode studi pustaka", "isCorrect": true, "rationale": "Benar. Metode ini secara spesifik merujuk pada pengumpulan data dari sumber pustaka." }
+    ]
+  },
+  {
+    "question": "Dari tabel survei, Universitas A: 1.000, B: 2.600, C: 1.300, D: 1.200, E: 2.500, F: 1.400. Kesimpulan yang tepat adalah...",
+    "answerOptions": [
+      { "text": "Universitas A paling favorit", "isCorrect": false, "rationale": "Salah. Universitas A paling sedikit peminatnya." },
+      { "text": "Peminat F lebih banyak dari E", "isCorrect": false, "rationale": "Salah. Peminat F (1.400) lebih sedikit dari E (2.500)." },
+      { "text": "Siswa paling banyak berniat masuk Universitas B", "isCorrect": true, "rationale": "Benar. Universitas B memiliki frekuensi peminat paling tinggi (2.600)." },
+      { "text": "Universitas D tidak diminati", "isCorrect": false, "rationale": "Salah. Universitas D diminati oleh 1.200 siswa." }
+    ]
+  },
+  {
+    "question": "Guna sajian data hasil penelitian bagi peneliti adalah...",
+    "answerOptions": [
+      { "text": "membantu peneliti membuat simpulan", "isCorrect": false, "rationale": "Tujuan utama penyajiannya adalah untuk publik." },
+      { "text": "membuat tabel agar mudah dibaca", "isCorrect": false, "rationale": "Ini cara penyajian, bukan kegunaan utamanya." },
+      { "text": "menyembunyikan data yang tidak penting", "isCorrect": false, "rationale": "Ini tindakan tidak etis." },
+      { "text": "sebagai informasi kepada publik atas hasil penelitiannya", "isCorrect": true, "rationale": "Benar. Tujuan utama menyajikan data adalah mempublikasikan hasil temuan penelitian." }
+    ]
+  }
+]

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    --bg-color: #f0f4f8;
+    --container-bg: #ffffff;
+    --primary-text: #2c3e50;
+    --secondary-text: #34495e;
+    --accent-color: #3498db;
+    --accent-hover: #2980b9;
+    --correct-color: #2ecc71;
+    --incorrect-color: #e74c3c;
+    --border-color: #dce4ec;
+    --whatsapp-color: #25D366;
+    --whatsapp-hover: #128C7E;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--primary-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.main-container {
+    background-color: var(--container-bg);
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+    overflow: hidden;
+}
+
+.header { padding: 2rem; background-color: var(--accent-color); color: white; text-align: center; }
+.header h1 { margin: 0; font-size: 1.8rem; line-height: 1.3; }
+.header p { margin: 0.5rem 0 0; font-size: 0.9rem; opacity: 0.9; }
+
+.content-body { padding: 2rem; }
+.login-form .form-group { margin-bottom: 1rem; }
+.login-form label { display: block; margin-bottom: 0.5rem; font-weight: 600; }
+.login-form .form-control {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.login-form .form-control:focus { outline: none; border-color: var(--accent-color); }
+#question { font-size: 1.2rem; font-weight: 600; margin-bottom: 1.5rem; line-height: 1.6; }
+.answer-buttons { display: flex; flex-direction: column; gap: 0.8rem; }
+
+.btn {
+    background-color: var(--container-bg);
+    color: var(--secondary-text);
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.btn:hover:not([disabled]) { background-color: var(--bg-color); border-color: var(--accent-color); }
+.btn:disabled { cursor: not-allowed; }
+.btn.correct { background-color: var(--correct-color); color: white; border-color: var(--correct-color); }
+.btn.incorrect { background-color: var(--incorrect-color); color: white; border-color: var(--incorrect-color); }
+
+.rationale {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--bg-color);
+    color: var(--secondary-text);
+    display: none;
+}
+
+#results-container { text-align: center; }
+.footer { padding: 2rem; display: flex; justify-content: flex-end; border-top: 1px solid var(--border-color); }
+
+.action-btn {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+.action-btn:hover { background-color: var(--accent-hover); }
+#next-btn { width: auto; }
+#start-quiz-btn { margin-top: 1rem; }
+.action-btn.whatsapp { background-color: var(--whatsapp-color); }
+.action-btn.whatsapp:hover { background-color: var(--whatsapp-hover); }
+
+/* === ADMIN PANEL STYLES === */
+.divider {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    margin: 2rem 0;
+}
+#question-list .question-item {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f9fafb;
+}
+#question-list .question-text {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+#question-list .option-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+#question-list .option-text {
+    flex-grow: 1;
+    margin: 0 0.5rem;
+}
+.delete-btn {
+    background-color: var(--incorrect-color);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.small-text {
+    font-size: 0.9rem;
+    color: var(--secondary-text);
+    text-align: center;
+    margin-top: 1rem;
+}
+.action-btn.correct {
+    background-color: var(--correct-color);
+}
+.action-btn.correct:hover {
+    background-color: #27ae60;
+}

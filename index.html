@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PREDIKSI SOAL & PEMBAHASAN TKA & US 2025</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div id="login-container">
+            <div class="header">
+                <h1>PREDIKSI SOAL & PEMBAHASAN TKA & US 2025</h1>
+                <p>Dipublikasikan oleh: MGMP SOSIOLOGI KAB. BOGOR</p>
+            </div>
+            <div class="content-body">
+                <div class="login-form">
+                    <p>Silakan isi data diri untuk memulai.</p>
+                    <div class="form-group"><label for="user-name">Nama Lengkap</label><input type="text" id="user-name" class="form-control"></div>
+                    <div class="form-group"><label for="user-school">Sekolah</label><input type="text" id="user-school" class="form-control"></div>
+                    <div class="form-group"><label for="user-class">Kelas</label><input type="text" id="user-class" class="form-control"></div>
+                    <button id="start-quiz-btn" class="action-btn">Mulai Kuis</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="quiz-container" style="display: none;">
+            <div class="header"><h1>Kuis Sosiologi</h1></div>
+            <div class="content-body">
+                <h2 id="question">Memuat pertanyaan...</h2>
+                <div id="answer-buttons" class="answer-buttons"></div>
+                <div id="rationale" class="rationale"></div>
+            </div>
+            <div class="footer"><button id="next-btn" class="action-btn">Selanjutnya</button></div>
+        </div>
+
+        <div id="results-container" style="display: none;">
+             <div class="header"><h1>Hasil Kuis</h1></div>
+            <div class="content-body">
+                <h2 id="results-title">Hasil untuk [Nama]</h2>
+                <p id="score-text">Skor Anda: 0/50</p>
+                <button id="download-pdf-btn" class="action-btn whatsapp">Download Hasil (PDF)</button>
+                <p class="small-text">Setelah ter-download, kirim file PDF ke gurumu via WhatsApp.</p>
+            </div>
+            <div class="footer" style="justify-content: center;">
+                <button id="restart-btn" class="action-btn" style="width: auto;">Kerjakan Ulang</button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/jspdf.min.js"></script>
+    <script src="assets/main.js"></script>
+</body>
+</html>
