@@ -1,13 +1,19 @@
+// Deklarasi Elemen Admin
 const adminLoginContainer = document.getElementById('admin-login-container');
 const questionManagerContainer = document.getElementById('question-manager-container');
 const adminLoginBtn = document.getElementById('admin-login-btn');
 const adminPasswordInput = document.getElementById('admin-password');
+const questionListDiv = document.getElementById('question-list');
+const questionCountSpan = document.getElementById('question-count');
+const addQuestionFormDiv = document.getElementById('add-question-form');
+const saveAllBtn = document.getElementById('save-all-btn');
 
-const ADMIN_PASSWORD = "sociology2025"; // Ini password rahasia kita
+const ADMIN_PASSWORD = "sociology2025";
+let questions = []; // Variabel untuk menyimpan data soal
 
+// --- Logika Login ---
 adminLoginBtn.addEventListener('click', () => {
-    const enteredPassword = adminPasswordInput.value;
-    if (enteredPassword === ADMIN_PASSWORD) {
+    if (adminPasswordInput.value === ADMIN_PASSWORD) {
         adminLoginContainer.style.display = 'none';
         questionManagerContainer.style.display = 'block';
         loadQuestionsForAdmin();
@@ -16,9 +22,147 @@ adminLoginBtn.addEventListener('click', () => {
     }
 });
 
+// --- Fungsi untuk memuat dan menampilkan soal ---
 async function loadQuestionsForAdmin() {
-    const questionListDiv = document.getElementById('question-list');
     questionListDiv.innerHTML = '<p>Memuat soal dari server...</p>';
-    // Logika lengkap untuk memuat, mengedit, dan menyimpan akan ditambahkan
-    // setelah kita menyiapkan Netlify Functions.
+    try {
+        // Tambahkan cache-busting untuk memastikan data selalu baru
+        const response = await fetch('/.netlify/functions/questions?t=' + new Date().getTime());
+        if (!response.ok) {
+            throw new Error('Gagal memuat data dari server.');
+        }
+        questions = await response.json();
+        renderQuestions();
+    } catch (error) {
+        questionListDiv.innerHTML = '<p style="color:red;">Gagal memuat soal. Pastikan proyek sudah di-hosting di Netlify dan coba refresh halaman.</p>';
+    }
 }
+
+function renderQuestions() {
+    questionListDiv.innerHTML = '';
+    questionCountSpan.textContent = questions.length;
+
+    questions.forEach((q, index) => {
+        const itemDiv = document.createElement('div');
+        itemDiv.className = 'question-item';
+        itemDiv.dataset.index = index;
+
+        let optionsHtml = q.answerOptions.map((opt, optIndex) => `
+            <div class="option-item">
+                <input type="radio" name="correct_${index}" ${opt.isCorrect ? 'checked' : ''} onchange="updateCorrectAnswer(${index}, ${optIndex})">
+                <input type="text" class="option-text" value="${opt.text}" placeholder="Teks Jawaban ${optIndex + 1}" onchange="updateOptionText(this, ${index}, ${optIndex})">
+                <input type="text" class="option-text" value="${opt.rationale}" placeholder="Penjelasan Jawaban ${optIndex + 1}" onchange="updateRationale(this, ${index}, ${optIndex})">
+            </div>
+        `).join('');
+
+        itemDiv.innerHTML = `
+            <p><strong>Soal #${index + 1}</strong></p>
+            <textarea class="question-text" rows="2" onchange="updateQuestionText(this, ${index})">${q.question}</textarea>
+            <p><small>Pilihan Jawaban (Pilih yang Benar):</small></p>
+            ${optionsHtml}
+            <button class="delete-btn" onclick="deleteQuestion(${index})">X</button>
+        `;
+        questionListDiv.appendChild(itemDiv);
+    });
+
+    // Render form tambah soal di akhir
+    renderAddQuestionForm();
+}
+
+// --- Fungsi untuk mengupdate data soal di memori ---
+function updateQuestionText(element, index) {
+    questions[index].question = element.value;
+}
+function updateOptionText(element, qIndex, optIndex) {
+    questions[qIndex].answerOptions[optIndex].text = element.value;
+}
+function updateRationale(element, qIndex, optIndex) {
+    questions[qIndex].answerOptions[optIndex].rationale = element.value;
+}
+function updateCorrectAnswer(qIndex, correctOptIndex) {
+    questions[qIndex].answerOptions.forEach((opt, index) => {
+        opt.isCorrect = (index === correctOptIndex);
+    });
+}
+function deleteQuestion(index) {
+    if (confirm(`Yakin ingin menghapus Soal #${index + 1}?`)) {
+        questions.splice(index, 1);
+        renderQuestions(); // Render ulang daftar soal
+    }
+}
+
+// --- Fungsi untuk menambah soal baru ---
+function renderAddQuestionForm() {
+    addQuestionFormDiv.innerHTML = `
+        <textarea id="new-question-text" class="question-text" rows="2" placeholder="Ketik pertanyaan baru di sini"></textarea>
+        <input type="text" id="new-option-1" class="option-text" placeholder="Jawaban A">
+        <input type="text" id="new-option-2" class="option-text" placeholder="Jawaban B">
+        <input type="text" id="new-option-3" class="option-text" placeholder="Jawaban C (opsional)">
+        <input type="text" id="new-option-4" class="option-text" placeholder="Jawaban D (opsional)">
+        <p><small>Pilih jawaban yang benar untuk soal baru di atas:</small></p>
+        <select id="new-correct-answer">
+            <option value="0">Jawaban A Benar</option>
+            <option value="1">Jawaban B Benar</option>
+            <option value="2">Jawaban C Benar</option>
+            <option value="3">Jawaban D Benar</option>
+        </select>
+        <button id="add-question-btn" class="action-btn" style="width:auto; margin-top:1rem;">Tambah Soal</button>
+    `;
+
+    document.getElementById('add-question-btn').addEventListener('click', () => {
+        const questionText = document.getElementById('new-question-text').value.trim();
+        const options = [
+            document.getElementById('new-option-1').value.trim(),
+            document.getElementById('new-option-2').value.trim(),
+            document.getElementById('new-option-3').value.trim(),
+            document.getElementById('new-option-4').value.trim(),
+        ].filter(opt => opt !== ''); // Hanya ambil opsi yang diisi
+
+        const correctIndex = parseInt(document.getElementById('new-correct-answer').value);
+
+        if (questionText && options.length >= 2) {
+            const newQuestion = {
+                question: questionText,
+                answerOptions: options.map((opt, index) => ({
+                    text: opt,
+                    isCorrect: index === correctIndex,
+                    rationale: "" // Penjelasan bisa diisi nanti saat edit
+                }))
+            };
+            questions.push(newQuestion);
+            renderQuestions(); // Render ulang semua
+        } else {
+            alert('Pertanyaan dan minimal 2 jawaban harus diisi!');
+        }
+    });
+}
+
+// --- Fungsi untuk menyimpan semua perubahan ke server ---
+saveAllBtn.addEventListener('click', async () => {
+    if (!confirm('Apakah Anda yakin ingin menyimpan semua perubahan? File soal di server akan ditimpa.')) {
+        return;
+    }
+
+    saveAllBtn.textContent = 'Menyimpan...';
+    saveAllBtn.disabled = true;
+
+    try {
+        const response = await fetch('/.netlify/functions/questions', {
+            method: 'POST',
+            body: JSON.stringify(questions)
+        });
+
+        if (!response.ok) {
+            throw new Error('Gagal terhubung ke server. Status: ' + response.status);
+        }
+
+        const result = await response.json();
+        alert(result.message);
+
+    } catch (error) {
+        alert('Terjadi kesalahan saat menyimpan: ' + error.message);
+    } finally {
+        saveAllBtn.textContent = 'Simpan Semua Perubahan';
+        saveAllBtn.disabled = false;
+    }
+});
